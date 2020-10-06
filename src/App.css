@@ -23,6 +23,7 @@ html{
     padding-right: 140px;
     padding-left: 140px;
     padding-top: 50px;
+    font-size: x-large;
     
 }
 .intro-text{
@@ -30,6 +31,7 @@ html{
     overflow: hidden;
     padding-top: 60px;
     padding-left: 100px;
+    font-size: larger;
     
 }
 
@@ -40,6 +42,7 @@ html{
     display: inline-block;
     flex-wrap: wrap;
     margin: 20px;
+    width: 20%;
     
       }
 
@@ -56,10 +59,12 @@ html{
 
 .Boxes{
     padding-left: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
 img{
     height: 200px;
-    width: 250px;
+    width: 100%;
 }

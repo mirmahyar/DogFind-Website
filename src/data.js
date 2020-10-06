@@ -32,6 +32,14 @@ const data = [
         lifespan: '10-12 years',
         shedding: 'Moderate',
         suitable: 'No'
+    },
+    {
+        img: require("./golden.jpg"),
+        name: 'Golden Retriever',
+        origin: 'Germany',
+        lifespan: '10-12 years',
+        shedding: 'High',
+        suitable: 'Yes'
     }
 ]
 export default data
