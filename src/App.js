@@ -6,6 +6,7 @@ import "./App.css"; import "./Navbar.css"; import "./Footer.css"
 import Box from "./components/Box"; import Intro from "./components/Intro"; import Footer from "./components/Footer"
 import data from "./data"
 import { HashLink as Link } from 'react-router-hash-link';
+import SimpleReactLightBox from 'simple-react-lightbox'
 
 
 const App = () => {
@@ -18,20 +19,23 @@ const App = () => {
                 origin={dog.origin}
                 lifespan={dog.lifespan}
                 suitable={dog.suitable}
+                alt={dog.alt}
             />
         )
     }
     )
     return (
         <div>
-            <Navbar />
-            <Intro />
-            <div className='Boxes'>
-                <div >
-                    {boxElement}
+            <SimpleReactLightBox>
+                <Navbar />
+                <Intro />
+                <div className='Boxes'>
+                    <div >
+                        {boxElement}
+                    </div>
                 </div>
-            </div>
-            <Footer />
+                <Footer />
+            </SimpleReactLightBox>
         </div>
     )
 }

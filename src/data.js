@@ -7,7 +7,8 @@ const data = [
         origin: 'Germany',
         lifespan: '8-10 years',
         shedding: 'Moderate',
-        suitable: 'No'
+        suitable: 'No',
+        alt: 'ROTTWEILER'
     },
     {
         img: require("./german.jpg"),
@@ -15,7 +16,8 @@ const data = [
         origin: 'Germany',
         lifespan: '9-13 years',
         shedding: 'High',
-        suitable: 'No'
+        suitable: 'No',
+        alt: 'GERMAN SHEPHARD'
     },
     {
         img: require("./greatdane.jpg"),
@@ -23,7 +25,8 @@ const data = [
         origin: 'Germany',
         lifespan: '8-10 years',
         shedding: 'Moderate',
-        suitable: 'Yes'
+        suitable: 'Yes',
+        alt: 'GREAT DANE'
     },
     {
         img: require("./labrador.jpg"),
@@ -31,7 +34,8 @@ const data = [
         origin: 'Germany',
         lifespan: '10-12 years',
         shedding: 'Moderate',
-        suitable: 'No'
+        suitable: 'No',
+        alt: 'LABRADOR'
     },
     {
         img: require("./golden.jpg"),
@@ -39,7 +43,8 @@ const data = [
         origin: 'Germany',
         lifespan: '10-12 years',
         shedding: 'High',
-        suitable: 'Yes'
+        suitable: 'Yes',
+        alt: 'GOLDEN RETRIEVER'
     }
 ]
 export default data
