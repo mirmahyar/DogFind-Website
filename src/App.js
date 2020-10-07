@@ -5,8 +5,9 @@ import greatdane from "./greatdane.jpg"; import labrador from "./labrador.jpg"
 import "./App.css"; import "./Navbar.css"; import "./Footer.css"
 import Box from "./components/Box"; import Intro from "./components/Intro"; import Footer from "./components/Footer"
 import data from "./data"
-import { HashLink as Link } from 'react-router-hash-link';
 import SimpleReactLightBox from 'simple-react-lightbox'
+
+
 
 
 const App = () => {
@@ -27,13 +28,16 @@ const App = () => {
     return (
         <div>
             <SimpleReactLightBox>
+
                 <Navbar />
+
                 <Intro />
                 <div className='Boxes'>
                     <div >
                         {boxElement}
                     </div>
                 </div>
+
                 <Footer />
             </SimpleReactLightBox>
         </div>

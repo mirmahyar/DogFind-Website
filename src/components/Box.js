@@ -6,7 +6,7 @@ const Box = (props) => {
 
 
     return (
-        <div className='box'>
+        <div id="content" className='box'>
 
             <div className='content'>
                 <SRLWrapper>

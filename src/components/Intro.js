@@ -10,7 +10,7 @@ const Intro = () => {
                 <h1>Find Your Dog! </h1>
             </div>
 
-            <div className='intro-text'>
+            <div id="intro-text" className='intro-text'>
                 <p>
                     <b>Welcome to the fascinating world of the dogs !
                     Here, you will learn many things about them that will help

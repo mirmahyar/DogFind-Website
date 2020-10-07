@@ -45,6 +45,15 @@ const data = [
         shedding: 'High',
         suitable: 'Yes',
         alt: 'GOLDEN RETRIEVER'
+    },
+    {
+        img: require("./staffordshire.jpg"),
+        name: 'Staffordshire Bull Terrier',
+        origin: 'England',
+        lifespan: '12-14 years',
+        shedding: 'Low',
+        suitable: 'Yes',
+        alt: 'Staffordshire Terrier'
     }
 ]
 export default data

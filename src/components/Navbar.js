@@ -1,5 +1,5 @@
 import React from "react"
-import { HashLink as Link } from 'react-router-hash-link';
+
 
 const Navbar = () => {
     return (
@@ -8,10 +8,10 @@ const Navbar = () => {
                 <a href='#'>Home</a>
             </li>
             <li>
-                <a href='#'>About</a>
+                <a href='#intro-text'>About</a>
             </li>
             <li>
-                <a href='#'>Contact</a>
+                <a href='#myfooter'>Contact</a>
             </li>
         </ul>
     )
